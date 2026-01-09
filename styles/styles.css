@@ -205,6 +205,10 @@
     font-weight: 600;
     color: #30B868;
 }
+.badge i {
+    font-size: 16px;  
+    color: #30B868;
+}
 
 .banner-content h1 {
     width: 770px;
@@ -393,7 +397,7 @@
     width: 500px;
     height: 500px;
     border-radius: 12px;
-    background-image: url('/assets/knowledge.png');
+    background-image: url('../assets/knowledge.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
