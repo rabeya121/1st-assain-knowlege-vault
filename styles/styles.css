@@ -22,8 +22,8 @@
     color: #ffffff;
     font-size: 15px;
     font-weight: 600;
-    text-decoration: none;
     border: none;
+    text-decoration: none;
     border-radius: 8px;
     box-sizing: border-box;
     cursor: pointer;
@@ -59,15 +59,14 @@
     cursor: pointer;
     transition: all 0.25s ease;
 }
+
 .btn-secondary i {
-    font-size: 14px;         
-    color: #ffffff;          
+    font-size: 14px;
+    color: #ffffff;
 
 }
-
-
 .btn-secondary:hover i {
-    color: #30B868;          
+    color: #30B868;
     transform: translateX(2px);
 }
 
@@ -79,7 +78,6 @@
 }
 
 
-/* Top Navbar */
 .top-nav {
     width: 1600px;
     height: 75px;
@@ -106,7 +104,6 @@
 .nav-logo {
     display: flex;
     align-items: center;
-
     padding-top: 7.5px;
     padding-bottom: 7.5px;
     padding-left: 120px;
@@ -247,13 +244,11 @@
 }
 
 
-
 #card-section {
     padding: 80px 20px;
     background-color: #f9f9f9;
 }
 
-/* Section Heading */
 .section-heading {
     max-width: 1360px;
     height: 116px;
@@ -284,7 +279,6 @@
     margin: 0 auto;
 }
 
-/* Cards Container */
 .card-box {
 
     display: flex;
@@ -308,11 +302,11 @@
     justify-content: flex-start;
     flex-direction: column;
     display: flex;
+    align-items: center; 
     box-sizing: border-box;
 
 
 }
-
 
 
 .feature-card:hover {
@@ -329,6 +323,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    margin-bottom: 12px;
 }
 
 .card-img img {
@@ -338,8 +333,6 @@
     object-fit: contain;
     display: block;
 }
-
-
 
 
 .feature-card h3 {
@@ -380,12 +373,7 @@
 
 .solution-section {
     padding: 80px 10%;
-    background: rgba(255, 255, 255, 1);
-
-
-
-
-    /* white background pura section er jonno */
+    background: #FFFFFF;
 }
 
 .solution-container {
@@ -401,17 +389,10 @@
     justify-content: center;
 }
 
-
-
-
-
-
 .solution-image {
     width: 500px;
     height: 500px;
     border-radius: 12px;
-
-    /* Background image */
     background-image: url('/assets/knowledge.png');
     background-size: cover;
     background-position: center;
@@ -480,36 +461,25 @@
     gap: 18px;
 }
 
-
 .solution-text li {
     position: relative;
     padding-left: 40px;
-    /* circle icon এর জায়গা */
-    font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 26px;
     color: #001931;
 }
 
 .solution-text li::before {
-    content: "✓";
+    content: "";
     position: absolute;
     left: 0;
-    top: 4px;
-
+    top: 6px;
     width: 20px;
     height: 20px;
-
-    background: #30B868;
-    color: #fff;
-
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 12px;
-    font-weight: 700;
+    background-image: url("/assets/CheckCircle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -616,7 +586,6 @@ footer {
     margin: 0 auto;
 }
 
-/* Footer layout */
 .footer-container {
     width: 1360px;
     height: 64px;
@@ -627,15 +596,12 @@ footer {
     margin: 0 auto;
 }
 
-/* Logo */
 .logo img {
     height: 60px;
     display: block;
 }
 
-/* Social */
 .social p {
-    
 
     width: 113px;
     height: 28px;
@@ -674,7 +640,6 @@ footer {
     color: #06182c;
 }
 
-/* Copyright */
 .copyright {
     width: 1360px;
     height: 24px;
@@ -684,5 +649,5 @@ footer {
     letter-spacing: 0;
     text-align: center;
     color: #FAFAFA;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
