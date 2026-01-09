@@ -34,6 +34,11 @@
     background: #249e57;
 }
 
+.btn-primary img {
+    width: 16px;
+    height: 16px;
+}
+
 .btn-secondary {
     width: 198px;
     height: 52px;
@@ -53,6 +58,17 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.25s ease;
+}
+.btn-secondary i {
+    font-size: 14px;         
+    color: #ffffff;          
+
+}
+
+
+.btn-secondary:hover i {
+    color: #30B868;          
+    transform: translateX(2px);
 }
 
 .btn-secondary:hover {
@@ -195,12 +211,8 @@
 
 .banner-content h1 {
     width: 770px;
-    /* height: 168px;  */
-
-    font-family: "Inter", sans-serif;
     font-size: 72px;
     font-weight: 700;
-    /* Bold */
     line-height: 84px;
     letter-spacing: 0;
     text-align: center;
@@ -217,7 +229,6 @@
 .banner-content p {
     max-width: 900px;
     width: 100%;
-    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -433,70 +444,245 @@
 }
 
 .solution-text h2 {
-  color: #001931;
-  font-weight: 700;     
-  font-size: 48px;
-  line-height: 58px;
-  letter-spacing: 0;
-  text-align: left;
-  text-transform: capitalize;
-  width: 700px;
-  height: 116px;
-  display: block;    
-  margin-bottom: 16px;    
+    color: #001931;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0;
+    text-align: left;
+    text-transform: capitalize;
+    width: 700px;
+    height: 116px;
+    display: block;
+    margin-bottom: 16px;
 }
 
 
 .solution-text p {
-  max-width: 700px;               
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;        
-  letter-spacing: 0;
-  text-align: left;
-  color: #666;
-  margin-bottom: 20px;        
+    max-width: 700px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #666;
+    margin-bottom: 20px;
 }
 
 
 .solution-text ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 24px;
-  max-width: 700px;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
 
 
 .solution-text li {
-  position: relative;
-  padding-left: 40px;        /* circle icon এর জায়গা */
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 26px;
-  color: #001931;
+    position: relative;
+    padding-left: 40px;
+    /* circle icon এর জায়গা */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #001931;
 }
 
 .solution-text li::before {
-  content: "✓";
-  position: absolute;
-  left: 0;
-  top: 4px;
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 4px;
 
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 
-  background: #30B868;
-  color: #fff;
+    background: #30B868;
+    color: #fff;
 
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  font-size: 12px;
-  font-weight: 700;
+    font-size: 12px;
+    font-weight: 700;
 }
 
+
+/* CTA */
+.vault-cta-shell {
+    width: 100%;
+    padding: 120px;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+.vault-cta {
+    width: 1360px;
+    height: 384px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+
+    padding: 80px 40px;
+    box-sizing: border-box;
+
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.vault-cta h2 {
+    width: 1280px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 25, 49, 1);
+    margin: 0 auto 15px;
+}
+
+
+.vault-cta p {
+    width: 1280px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #627382;
+    margin: 0;
+}
+
+
+.vault-cta .btn-primary {
+    margin: 0 auto;
+}
+
+
+.btn-primary img {
+    width: 16px;
+    height: 16px;
+}
+
+.btn-primary:hover {
+    background: #27ae60;
+
+}
+
+.vault-cta small {
+
+    width: 1280px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #627382;
+    margin: 0;
+    display: block;
+}
+
+
+/* FOOTER */
+footer {
+    width: 1600px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 120px 120px 30px 120px;
+    box-sizing: border-box;
+    background: #06182c;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+/* Footer layout */
+.footer-container {
+    width: 1360px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo img {
+    height: 60px;
+    display: block;
+}
+
+/* Social */
+.social p {
+    
+
+    width: 113px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icons a {
+
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+.icons a:hover {
+    background: #2ecc71;
+    color: #06182c;
+}
+
+/* Copyright */
+.copyright {
+    width: 1360px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FAFAFA;
+    margin: 0 auto;   
+}
