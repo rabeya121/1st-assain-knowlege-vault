@@ -1,14 +1,15 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .font-open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
- .btn-primary {
+
+.btn-primary {
     width: 251px;
     height: 52px;
     display: flex;
@@ -58,7 +59,7 @@
     background: rgba(255, 255, 255, 0.1);
     border-color: #30B868;
     color: #30B868;
-    
+
 }
 
 
@@ -93,13 +94,13 @@
     padding-top: 7.5px;
     padding-bottom: 7.5px;
     padding-left: 120px;
-    
+
 }
 
 .nav-logo img {
     width: 139px;
     height: 60px;
-    
+
 }
 
 .nav-menu {
@@ -111,11 +112,11 @@
     justify-content: center;
     align-items: center;
     padding: 25.5px 346px;
-    margin: 0 auto;   
+    margin: 0 auto;
     white-space: nowrap;
     gap: 32px;
-    
-    
+
+
 }
 
 .nav-menu a {
@@ -127,19 +128,19 @@
 }
 
 .nav-menu a:hover {
-    color:#30B868 ;
-    
+    color: #30B868;
+
 }
 
 .nav-button {
-  margin-right: 120px;   
-  display: flex;
-  align-items: center;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
 }
 
 #banner {
     width: 100%;
-    min-height: 674px; 
+    min-height: 674px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -183,7 +184,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 6px; 
+    gap: 6px;
     padding: 8px 12px;
     border-radius: 1000px;
     background: rgba(255, 255, 255, 1);
@@ -193,12 +194,13 @@
 }
 
 .banner-content h1 {
-      width: 770px;
-     /* height: 168px;  */
+    width: 770px;
+    /* height: 168px;  */
 
     font-family: "Inter", sans-serif;
     font-size: 72px;
-    font-weight: 700;          /* Bold */
+    font-weight: 700;
+    /* Bold */
     line-height: 84px;
     letter-spacing: 0;
     text-align: center;
@@ -207,13 +209,14 @@
     opacity: 0.9;
     margin: 0 auto 12px;
 }
+
 .banner-content h1 .color-green {
     color: #30B868;
 }
 
 .banner-content p {
-     max-width: 900px;
-    width: 100%;    
+    max-width: 900px;
+    width: 100%;
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -222,8 +225,9 @@
     text-align: center;
     color: #fff;
     margin: 0 auto;
-}  
-.banner-buttons{
+}
+
+.banner-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,68 +244,68 @@
 
 /* Section Heading */
 .section-heading {
-    max-width: 1360px;                   
+    max-width: 1360px;
     height: 116px;
     text-align: center;
     margin: 0 auto 60px;
 }
 
 .section-heading h2 {
-    font-size: 48px;                     
-    font-weight: 700;                    
-    line-height: 58px;                   
-    text-align: center;                  
-    text-transform: capitalize;          
-    color: rgba(0, 25, 49, 1);                               
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 25, 49, 1);
     margin: 0 auto 16px;
 }
 
-.section-heading p { 
+.section-heading p {
 
-    font-size: 16px;                     
-    font-weight: 400;                    
-    line-height: 20px;                   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
     letter-spacing: 0;
     text-align: center;
 
-    color: rgba(98, 115, 130, 1);      
-    max-width: 700px;                 
-    margin: 0 auto;                    
+    color: rgba(98, 115, 130, 1);
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 /* Cards Container */
 .card-box {
-    
+
     display: flex;
-    gap: 30px;  
+    gap: 30px;
     max-width: 1200px;
-    margin: 0 auto;                    
-    justify-content: center;            
-    margin: 0 auto;                     
-    padding: 0 20px;  
+    margin: 0 auto;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 
 .feature-card {
     width: 322px;
-    height: 300px; 
+    height: 300px;
     background-color: #fff;
     padding: 30px 20px;
     border-radius: 12px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     text-align: center;
     justify-content: flex-start;
-    flex-direction: column; 
+    flex-direction: column;
     display: flex;
     box-sizing: border-box;
-   
-   
+
+
 }
 
 
 
 .feature-card:hover {
-    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -311,8 +315,8 @@
     background: rgba(249, 85, 85, 1);
     border-radius: 50%;
     display: flex;
-    justify-content: center;   
-    align-items: center;      
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -328,21 +332,22 @@
 
 
 .feature-card h3 {
-   
-    font-size: 24px;                        
-    font-weight: 600;                       
-    line-height: 29px;                    
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
     letter-spacing: 0;
-    text-align: center;                     
-    text-transform: capitalize;            
-    color: rgba(0, 25, 49, 1);            
-    width: 274px;                           
-    height: 58px;                          
-    display: flex;                        
-    align-items: center;                    
-    justify-content: center;              
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 25, 49, 1);
+    width: 274px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
 }
+
 .feature-card p {
     width: 274px;
     height: 40px;
@@ -359,9 +364,139 @@
     margin: 0 auto;
 }
 
+/*------------------------------------------*/
+/* SOLUTION SECTION */
+
+.solution-section {
+    padding: 80px 10%;
+    background: rgba(255, 255, 255, 1);
+
+
+
+
+    /* white background pura section er jonno */
+}
+
+.solution-container {
+
+    max-width: 1360px;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+}
 
 
 
 
 
+
+.solution-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+
+    /* Background image */
+    background-image: url('/assets/knowledge.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-text {
+    text-align: left;
+    max-width: 600px;
+}
+
+
+.solution-text .tag {
+
+    width: 700px;
+    height: 20px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #2ecc71;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+    text-transform: uppercase;
+    display: block;
+}
+
+.solution-text h2 {
+  color: #001931;
+  font-weight: 700;     
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: capitalize;
+  width: 700px;
+  height: 116px;
+  display: block;    
+  margin-bottom: 16px;    
+}
+
+
+.solution-text p {
+  max-width: 700px;               
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;        
+  letter-spacing: 0;
+  text-align: left;
+  color: #666;
+  margin-bottom: 20px;        
+}
+
+
+.solution-text ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 24px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+.solution-text li {
+  position: relative;
+  padding-left: 40px;        /* circle icon এর জায়গা */
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #001931;
+}
+
+.solution-text li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 4px;
+
+  width: 20px;
+  height: 20px;
+
+  background: #30B868;
+  color: #fff;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 12px;
+  font-weight: 700;
+}
 
