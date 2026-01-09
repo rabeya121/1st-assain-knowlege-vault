@@ -233,6 +233,135 @@
 
 
 
+#card-section {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Section Heading */
+.section-heading {
+    max-width: 1360px;                   
+    height: 116px;
+    text-align: center;
+    margin: 0 auto 60px;
+}
+
+.section-heading h2 {
+    font-size: 48px;                     
+    font-weight: 700;                    
+    line-height: 58px;                   
+    text-align: center;                  
+    text-transform: capitalize;          
+    color: rgba(0, 25, 49, 1);                               
+    margin: 0 auto 16px;
+}
+
+.section-heading p { 
+
+    font-size: 16px;                     
+    font-weight: 400;                    
+    line-height: 20px;                   
+    letter-spacing: 0;
+    text-align: center;
+
+    color: rgba(98, 115, 130, 1);      
+    max-width: 700px;                 
+    margin: 0 auto;                    
+}
+
+/* Cards Container */
+.card-box {
+    
+    display: flex;
+    gap: 30px;  
+    max-width: 1200px;
+    margin: 0 auto;                    
+    justify-content: center;            
+    margin: 0 auto;                     
+    padding: 0 20px;  
+}
+
+
+.feature-card {
+    width: 322px;
+    height: 300px; 
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column; 
+    display: flex;
+    box-sizing: border-box;
+   
+   
+}
+
+
+
+.feature-card:hover {
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+
+.card-img {
+    width: 60px;
+    height: 60px;
+    background: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;      
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: contain;
+    display: block;
+}
+
+
+
+
+.feature-card h3 {
+   
+    font-size: 24px;                        
+    font-weight: 600;                       
+    line-height: 29px;                    
+    letter-spacing: 0;
+    text-align: center;                     
+    text-transform: capitalize;            
+    color: rgba(0, 25, 49, 1);            
+    width: 274px;                           
+    height: 58px;                          
+    display: flex;                        
+    align-items: center;                    
+    justify-content: center;              
+    margin: 0;
+}
+.feature-card p {
+    width: 274px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    color: rgba(98, 115, 130, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    margin: 0 auto;
+}
+
+
+
+
 
 
 
